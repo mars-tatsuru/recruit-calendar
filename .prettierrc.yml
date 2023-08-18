@@ -1,0 +1,16 @@
+# # VueのSCFのscript,styleタグにインデントの指定
+vueIndentScriptAndStyle: true
+# 折り返す行の長さ
+printWidth: 80
+# インデントのスペース数の指定
+tabWidth: 2
+# 文字列などシングルクオートで囲む
+singleQuote: true
+# ステートメントの最後のセミコロンの設定
+semi: true
+# 末尾のカンマの設定
+trailingComma: none
+# {module} → { module }
+bracketSpacing: true
+# allow関数での ( ) の有無
+arrowParens: avoid
