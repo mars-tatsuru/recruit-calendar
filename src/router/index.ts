@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import HomeView from '../pages/HomeView.vue';
+import LoginView from '../pages/Login.vue';
 // import { createAuth0, authGuard } from "@auth0/auth0-vue";
 
 const router = createRouter({
@@ -7,9 +8,13 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      name: 'home',
+      name: 'beforeHome',
       component: HomeView
-      // beforeEnter: Auth0.routeGuard,
+    },
+    {
+      path: '/home',
+      name: 'home',
+      component: LoginView
     }
   ]
 });

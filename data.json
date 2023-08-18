@@ -1,0 +1,19 @@
+{
+  "web": {
+    "client_id": "1036301708604-phuq7ocsp9b4bbsghi1pi9ldvcujqve4.apps.googleusercontent.com",
+    "project_id": "mars-recruit",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_secret": "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",
+    "redirect_uris": ["http://localhost"],
+    "javascript_origins": ["http://localhost", "http://localhost:5173"],
+    "url": "https://accounts.google.com/o/oauth2/auth?client_id=1036301708604-phuq7ocsp9b4bbsghi1pi9ldvcujqve4.apps.googleusercontent.com&redirect_uri=http://localhost:5173/home&scope=https://www.googleapis.com/auth/adwords&access_type=offline&response_type=code"
+  },
+  "curl": "curl -d client_id=1036301708604-phuq7ocsp9b4bbsghi1pi9ldvcujqve4.apps.googleusercontent.com -d client_secret=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 -d redirect_uri=http://localhost:5173/home -d grant_type=authorization_code -d code=4/0Adeu5BV0vGPxEBPpsAnghSebrDDiT0xWKh0vp82xdyab3j7yYV0ZB9V9QdTpCji-hnFKcA https://accounts.google.com/o/oauth2/token",
+  "access_token": "ya29.a0AfB_byD3XVzWaT5sy58R38FG2oN4vu_cB1JmXFfMYnb-5f4WkFpfMwR_dC3A-LF8c1kd2nR72X5GzPg9NrCpZLd3WT801xAioAtTCUZtvqWFDJl__743inpzXZfqvsXBkvsDUPM1CsjVrAX4PN2zbW9eCt-BaCgYKAekSARMSFQHsvYlsDVxgh3ZTGlflD8dy9fCCrA0163",
+  "expires_in": 3599,
+  "refresh_token": "1//0erX2cBObtDECCgYIARAAGA4SNwF-L9IrhT3Fza3QPoYMKMbagvFWKcKGnboczD0jj9sBl4MeZuKSqCMCVx8ac9hGEIa3NHx9ccY",
+  "scope": "https://www.googleapis.com/auth/adwords",
+  "token_type": "Bearer"
+}
